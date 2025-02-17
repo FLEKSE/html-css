@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+}
+
+#wrapper{
+    /*background-color: red;*/
+    padding: 0 144px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 0;
+    /*background-color: aqua;*/
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.link {
+    text-decoration: none;
+}
+
+nav ul .link {
+    color: #18191F;
+    font-family: Inter, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+nav ul li:first-child a{
+    font-weight: 550;
+}
+
+
+#login {
+    color: #4CAF4F;
+    margin-right: 34px;
+    font-family: Inter, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#signup {
+    color: white;
+    background-color: #4CAF4F;
+    font-family: Inter, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+.main-content{
+    margin-top: 64px;
+    display: flex;
+    flex-direction: row;
+}
+.main-content-left{
+    display: flex;
+    flex-direction: column;
+}
+.first_heading{
+    font-weight: bold;
+    font-size: 50px;
+    color: #4D4D4D;
+}
+.continue_heading{
+    font-weight: bold;
+    font-size: 50px;
+    color: #4CAF4F;
+}
+#register {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #4CAF4F;
+    font-family: Inter, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    width: 15%;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+.main-content-2{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.second-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main-content-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.headings{
+    font-weight: bold;
+    font-size: 45px;
+    color: #4D4D4D;
+}
+.texts{
+    color: #717171;
+}
+.down-content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 10%;
+
+
+}
+.down-content-left-center-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    width: 25%;
+
+}
+.headings3{
+    font-weight: bold;
+    font-size: 30px;
+    color: #4D4D4D;
+}
+
+
+
+
+.footer{
+
+}

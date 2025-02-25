@@ -12,7 +12,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 22px 0;
-    /*background-color: aqua;*/
+    /*background-color: #F5F7FA;*/
 }
 
 nav ul {
@@ -62,7 +62,6 @@ nav ul li:first-child a {
 }
 
 .main-content {
-    margin-top: 64px;
     display: flex;
     flex-direction: row;
     background-color: #F5F7FA;
@@ -105,7 +104,7 @@ nav ul li:first-child a {
 }
 
 .main-content-2 {
-    margin-top: 100px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -137,8 +136,8 @@ nav ul li:first-child a {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    column-gap: 5%;
+    justify-content: space-around;
+    padding: 10px;
 
 
 }
@@ -164,6 +163,7 @@ nav ul li:first-child a {
     display: flex;
     flex-direction: row;
     width: 100%;
+    padding: 64px;
 }
 
 .main-content-4-left {
@@ -224,31 +224,34 @@ nav ul li:first-child a {
 .main-content-5-right {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     width: 65%;
 }
 
 .GreenText {
     color: #4CAF4F;
-    padding: 10px;
+    padding: 10px 0;
+    font-weight: bold;
 }
 
 .MeetAllCustomers {
     color: #4CAF4F;
+    font-weight: bold;
+
 }
 
 .second-content-5 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px;
 }
 
 .main-content-5-1 {
     display: flex;
     flex-direction: row;
     background-color: #F5F7FA;
-    padding: 40px 80px;
+    padding: 50px 80px;
 }
 
 .main-content-5-1-left {
@@ -297,6 +300,8 @@ nav ul li:first-child a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    padding: 50px 0;
 }
 
 .main-content-6-up {
@@ -314,8 +319,9 @@ nav ul li:first-child a {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    column-gap: 5%;
+    justify-content: space-around;
+    column-gap: 10px;
+
 
 }
 
@@ -330,6 +336,37 @@ nav ul li:first-child a {
     width: 200px;
     padding: 20px;
 }
+.main-content-7{
+    background-color: #F5F7FA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+.heading-text{
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+    color: #263238;
+
+
+}
+
+#GetADemo {
+    color: white;
+    background-color: #4CAF4F;
+    font-family: Inter, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 5px;
+    border-radius: 6px;
+    width: 10%;
+
+}
+
 
 .footer {
 
